@@ -68,7 +68,7 @@ button {
 
 .background::before {    
     content: "";
-    background: url(../img/background_main.jpg) center no-repeat;
+    background: url(/img/background_main.jpg) center no-repeat;
     background-size: cover;
     position: absolute;
     width: 100%;
