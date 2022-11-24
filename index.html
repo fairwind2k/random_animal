@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random animal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <section class="selection">
+        <div class="container">
+            <header class="selection_header">
+                <h1>Случайное животное</h1>
+            </header>
+
+            <form class="select-form" action="#">
+                    <select name="countries" id="countries">
+                        <option value="" selected hidden>выберите страну</option>
+                        <option value="1">Австралия</option>
+                        <option value="2">Россия</option>
+                        <option value="3">США</option>
+                    </select>                
+                <button class="button button_submit">ПОКАЗАТЬ</button>
+            </form>  
+        </div>    
+    </section>
+
+<section class="gallery">
+    <div class="container">
+        <div class="gallery_background">
+            <div class="gallery_background background">
+
+            </div>
+            <div class="gallery_card">
+                <h2 class="card_description">
+                    ЗЕБРА
+                </h2>          
+                <img class="card_description_image" src="/img/card_image.jpg" alt="card_img">
+            </div>
+
+                <!-- Если ничего не найдено, то вместо названия животного, выводится текст. Ддя этого убрать весь элемент карточки gallery_card и вставить следующее:   
+                <h2 class="card_description" >Ой, ничего не найдено...</h2> -->
+
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="footer_wrapper">
+            <div class="footer_social">
+                <a href="#">
+                    <img src="svg/github_icon.svg" alt="github_icon">
+                </a>
+                <a href="#">
+                    <img src="svg/linkedin_icon.svg" alt="linkedin_icon">
+                </a>
+                <a href="#">
+                    <img src="svg/telegramm_icon.svg" alt="telegram_icon">
+                </a>
+            </div>
+            <div class="footer_autors">
+                Designed by N.Flerko, <br> 
+                -put here developer's name-
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    
+</body>
+</html>
